@@ -14,7 +14,7 @@ vimUtils.buildVimPlugin rec {
 
   src = sources.${portName};
 
-  nvimSkipModule = [
+  nvimSkipModules = [
     "catppuccin.groups.integrations.noice"
     "catppuccin.groups.integrations.feline"
     "catppuccin.lib.vim.init"
